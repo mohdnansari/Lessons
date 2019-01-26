@@ -12,6 +12,11 @@ fabric/bin in PATH
 IPs of all 4 nodes 
 GOPATH etc
 
-3) Fabric images(1.1) need to be present and correctly tagged for the altoros example to work.
+for permanently storing env variables across logout/login, use ~/.profile to store all such env variables permanently
+
+3) #NO # Fabric images(1.1) need NOT be present and correctly tagged for the altoros example to work.
 
 
+4) ###IMPORTANT###
+   Use the command "sudo ./network.sh -m generate -o a" to generate peer artifacts. The documentation uses "generate-peer" keyword instead.
+        ** Not sure if this is correct. but using this for now. ** 
