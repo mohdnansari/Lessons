@@ -1,0 +1,17 @@
+Deploying Altoros 4 node blockchain network:
+
+Documentation URL: 
+        https://www.altoros.com/blog/deploying-a-multi-node-hyperledger-fabric-network-in-5-steps/
+        https://www.altoros.com/fabric-starter-cheat-sheet.html  
+
+Why the deployment may not work? Important pointers:
+1) The cloud instances on GCE have external IP addresses that keep changing by default. The altoros example needs us to define the exact IP addresses at the time of configuration.
+
+2) All exported environment variables are lost when the cloud instance terminal is closed or logged off. This applies specifically to the following env variables:
+fabric/bin in PATH
+IPs of all 4 nodes 
+GOPATH etc
+
+3) Fabric images(1.1) need to be present and correctly tagged for the altoros example to work.
+
+
