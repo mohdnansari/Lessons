@@ -15,8 +15,19 @@ curl command, REBOOT. then run buildAndDeploy.sh
 
 Sample:
 
-`sudo apt-get update
-`sudo apt-get install -y curl
-`curl -H 'Accept: application/vnd.github.v3.raw' https://raw.githubusercontent.com/rddill-IBM/ZeroToBlockchain/master/setup_Ubuntu_Part_1.sh | bash
+sudo apt-get update
+sudo apt-get install -y curl
+curl -H 'Accept: application/vnd.github.v3.raw' https://raw.githubusercontent.com/rddill-IBM/ZeroToBlockchain/master/setup_Ubuntu_Part_1.sh | bash
 
 **REBOOT**
+
+curl -H 'Accept: application/vnd.github.v3.raw' https://raw.githubusercontent.com/rddill-IBM/ZeroToBlockchain/master/setup_Ubuntu_Part_2.sh | bash
+
+**REBOOT**
+
+now clone the Zerotoblockchain repository in the root : 
+                  git clone https://github.com/rddill-IBM/ZeroToBlockchain.git
+                  
+                  
+rename buildAndDeploy to buildAndDeploy.sh(because we are on ubuntu), then run it
+Note: this will not run if the instance was not rebooted after completion of the last CURL command. 
