@@ -6,3 +6,6 @@
 4) The prompt for fonts, does not work. On seeing this,  Run the script all over again and the prompt will not be there anymore.
 
 5) NOTE: after running the second setup script, we need to clone the zerotobc repository and run chapter03 scripts to bring up needed infrastructure.
+
+NOTE NOTE NOTE: Reboot is required between STEP1 and STEP2 and STEP2 and STEP3. i.e. after running the first curl command, reboot. after running the second 
+curl command, REBOOT. then run buildAndDeploy.sh
