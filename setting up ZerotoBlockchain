@@ -1,0 +1,8 @@
+1) Zip and unzip utilities will have to be installed on Ubuntu machine.
+    ** sudo apt-get update
+    ** sudo apt-get install zip
+2) The demonstrator is running things on MacOS. it is quite possible that in some places steps are slightly different that what are shown.
+3) buildAndDeploy -> is buildAndDeploy.sh on ubunut. renama and chmod if needed.
+4) The prompt for fonts, does not work. On seeing this,  Run the script all over again and the prompt will not be there anymore.
+
+5) NOTE: after running the second setup script, we need to clone the zerotobc repository and run chapter03 scripts to bring up needed infrastructure.
