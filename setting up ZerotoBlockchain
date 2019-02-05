@@ -7,5 +7,7 @@
 
 5) NOTE: after running the second setup script, we need to clone the zerotobc repository and run chapter03 scripts to bring up needed infrastructure.
 
-NOTE NOTE NOTE: Reboot is required between STEP1 and STEP2 and STEP2 and STEP3. i.e. after running the first curl command, reboot. after running the second 
+NOTE NOTE NOTE: 
+1) Reboot is required between STEP1 and STEP2 and STEP2 and STEP3. i.e. after running the first curl command, reboot. after running the second 
 curl command, REBOOT. then run buildAndDeploy.sh
+2) External IP of GCE changes everytime it is rebooted/restarted
