@@ -11,3 +11,12 @@ NOTE NOTE NOTE:
 1) Reboot is required between STEP1 and STEP2 and STEP2 and STEP3. i.e. after running the first curl command, reboot. after running the second 
 curl command, REBOOT. then run buildAndDeploy.sh
 2) External IP of GCE changes everytime it is rebooted/restarted
+
+
+Sample:
+
+`sudo apt-get update
+`sudo apt-get install -y curl
+`curl -H 'Accept: application/vnd.github.v3.raw' https://raw.githubusercontent.com/rddill-IBM/ZeroToBlockchain/master/setup_Ubuntu_Part_1.sh | bash
+
+**REBOOT**
