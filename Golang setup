@@ -1,0 +1,9 @@
+1) there can be an error like "shim not found" when go program is compiled post installation.
+
+To solve this error following steps need to be followed:
+
+step1: $GOPATH should be set i.e. your home should have a folder named "go"
+step2: inside that folder there should be directory like that Go/src/github.com/hyperledger
+step3: git clone http://gerrit.hyperledger.org/r/fabric
+
+once step3 is completed the programs could be compiled without any issues.
