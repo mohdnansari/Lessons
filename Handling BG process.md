@@ -2,6 +2,7 @@
 
 node /srv/www/MyUserAccount/server/server.js > stdout.txt 2> stderr.txt &
 
+Note: Specifying comsole output and log/error file is important. If you skip this, the background process will still fail if it tries to print an error or message on the console.
 
 ##  Seeing all running background processes
 ps -ef|grep
